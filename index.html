@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umime Cesky Fucker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: #0f0f0f;
+            color: #ffffff;
+            text-align: center;
+        }
+        .section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 80px 20px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.5);
+            margin: 50px auto;
+            max-width: 800px;
+        }
+        .container p {
+            align-self: center;
+            text-align: center;
+        }
+        .widget-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .widget {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(255, 69, 0, 0.4);
+            width: 45%;
+            min-width: 300px;
+            margin: 20px 0;
+        }
+        .widget-full {
+            width: 50%;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 0 0 15px rgba(255, 69, 0, 0.8);
+        }
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #bbbbbb;
+            max-width: 600px;
+        }
+        .btn {
+            background: linear-gradient(90deg, #ff8c00, #ff4500);
+            color: white;
+            padding: 15px 50px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            text-decoration: none;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.8);
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            box-shadow: 0 0 35px rgba(255, 69, 0, 1);
+            transform: scale(1.1);
+        }
+        .footer {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            margin-top: 50px;
+        }
+        .footer a {
+            color: #ff4500;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function downloadFile() {
+            const fileUrl = 'index.html'; // Nahraď skutečnou URL souboru
+            const fileName = 'downloaded-file.html'; // Jak bude soubor pojmenován po stažení
+
+            const link = document.createElement('a');
+            link.href = fileUrl;
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</head>
+<body>
+    <div id="home" class="section">
+        <div class="container">
+            <h1>Umime Cesky Fucker</h1>
+            <h4>Nejlepší cheat pro Umíme To</h4>
+            <button class="btn" onclick="downloadFile()">Stáhnout nyní</button>
+        </div>
+    </div>
+    <div id="about" class="section">
+    <h1>O nás</h1>
+    <div class="widget-container">
+        <div class="widget">
+            <h2>Kdo jsme?</h2>
+            <p>Jsme developeři s léty zkušeností a chceme se podělit s našim hackem pro Umíme To</p>
+        </div>
+        
+        <div class="widget">
+            <h2>Kolik uživatelů máme?</h2>
+            <p>Jsme zatím malá komunita okolo 200 lidí ale věříme že se to bude rozvíjet dál!</p>
+        </div>
+        <div class="widget">
+            <h2>Proč je náš produkt zadarmo?</h2>
+            <p>Věříme že pomůcky do školy by neměly být placené.</p>
+        </div>
+        <div class="widget">
+            <h2>Vyrobeno zkušenými vývojáři</h2>
+            <p>Naši vývojáři mají mnoho zkušeností s tím co dělají a proto věříme že se vám náš produkt bude líbit</p>
+        </div>
+    </div>
+</div>
+    
+    <div class="section">
+        <h2>Ukázka</h2>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=26FDG6ZL9BvbGx_J"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+    <div class="footer">
+        <a onclick="scrollToSection('home')">Hlavní stránka</a>
+        <a onclick="scrollToSection('about')">O nás</a>
+        <a href="tos.html">ToS</a>
+    </div>
+</body>
+</html>
